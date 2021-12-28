@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.EventActivity"
+    android:orientation="vertical">
+
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CUID: "
+        android:labelFor="@id/EventActivity_textView_cuid"></TextView>
+
+    <TextView
+        android:id="@+id/EventActivity_textView_cuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LUID: "
+        android:labelFor="@id/EventActivity_textView_luid">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/EventActivity_textView_luid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+-->
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Event Tracked Successfully"></TextView>
+
+    <Button
+        android:id="@+id/EventActivity_button_newEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Event"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"></Button>
+</LinearLayout>

@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "76932207205",
+    "firebase_url": "https://webengage-test-fe629.firebaseio.com",
+    "project_id": "webengage-test-fe629",
+    "storage_bucket": "webengage-test-fe629.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76932207205:android:c9a02b57bfa39d08",
+        "android_client_info": {
+          "package_name": "com.webengage.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76932207205-g8tbngoi72lc1c7g9ohgt2mnfk3l17pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLDq9rPNVX86yCGPv3szcRqL_4DfSehls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76932207205:android:61fe766147b8a749",
+        "android_client_info": {
+          "package_name": "com.webengage2.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76932207205-g8tbngoi72lc1c7g9ohgt2mnfk3l17pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLDq9rPNVX86yCGPv3szcRqL_4DfSehls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76932207205:android:8002cd5c525cbf78",
+        "android_client_info": {
+          "package_name": "com.webengage.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76932207205-g8tbngoi72lc1c7g9ohgt2mnfk3l17pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLDq9rPNVX86yCGPv3szcRqL_4DfSehls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76932207205:android:e6a26971096a1c37",
+        "android_client_info": {
+          "package_name": "com.webengage.production"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76932207205-g8tbngoi72lc1c7g9ohgt2mnfk3l17pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLDq9rPNVX86yCGPv3szcRqL_4DfSehls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

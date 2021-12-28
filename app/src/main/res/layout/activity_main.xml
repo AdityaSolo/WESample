@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <EditText
+        android:id="@+id/mainActivity_editText_cuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:maxEms="20"
+        android:hint="Enter CUID"
+        app:layout_constraintTop_toTopOf="@id/mainActivity_textView_label_cuid"
+        app:layout_constraintStart_toEndOf="@id/mainActivity_textView_label_cuid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/mainActivity_textView_label_cuid"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_margin="4dp"></EditText>
+
+    <TextView
+        android:id="@+id/mainActivity_textView_label_cuid"
+        android:text="CUID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/mainActivity_editText_cuid"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/mainActivity_button_login"
+        app:layout_constraintEnd_toStartOf="@id/mainActivity_editText_cuid"></TextView>
+
+    <Button
+        android:id="@+id/mainActivity_button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="LOGIN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainActivity_editText_cuid"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_bias="0.25"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
