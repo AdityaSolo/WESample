@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
 
@@ -26,7 +27,13 @@ public class MainActivity extends AppCompatActivity {
 
         initActivity();
         initListeners();
+    }
 
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        WebEngage.get().analytics().screenNavigated("Home");
     }
 
     @Override
@@ -49,8 +56,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void loginUser(String cuid) {
         Log.d(Constants.DEBUG_TAG, "Logging in as "+cuid);
+
         SharedPrefsManager.get().put(USER_LOGIN_CHECK_KEY,true);
-        SharedPrefsManager.get().put(LOGGED_USER,cuid);
+       SharedPrefsManager.get().put(LOGGED_USER,cuid);
         WebEngage.get().user().login(cuid);
         navigateToEventsActivity(cuid);
     }

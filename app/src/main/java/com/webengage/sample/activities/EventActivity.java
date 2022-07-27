@@ -23,6 +23,12 @@ public class EventActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        WebEngage.get().analytics().screenNavigated("Events");
+    }
+
     private void initView() {
         binding.EventActivityButtonNewEvent.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -2,6 +2,7 @@ package com.webengage.sample;
 
 import android.app.Application;
 import android.content.Context;
+import android.os.StrictMode;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
@@ -31,6 +32,7 @@ public class MainApplication extends Application {
     private void initContext() {
         mContext = this.getApplicationContext();
     }
+
 
     private void initWebEngage() {
         Log.d(Constants.DEBUG_TAG, "Initializing WebEngage SDK");
